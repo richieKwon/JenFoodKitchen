@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenFoodKitchen", "JenFoodKitchen\JenFoodKitchen.csproj", "{CF7D80B2-86D9-4150-908A-4E55DBD32D25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenKitchen", "JenKitchen\JenKitchen.csproj", "{9DF5577E-3E96-46D6-9304-092BD891792A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CF7D80B2-86D9-4150-908A-4E55DBD32D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF7D80B2-86D9-4150-908A-4E55DBD32D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF7D80B2-86D9-4150-908A-4E55DBD32D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF7D80B2-86D9-4150-908A-4E55DBD32D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF5577E-3E96-46D6-9304-092BD891792A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF5577E-3E96-46D6-9304-092BD891792A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF5577E-3E96-46D6-9304-092BD891792A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF5577E-3E96-46D6-9304-092BD891792A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
