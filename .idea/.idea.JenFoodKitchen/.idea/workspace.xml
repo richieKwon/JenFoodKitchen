@@ -8,32 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7aa6fa-ac64-4474-ab89-62d251b9e588" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JenKitchen/JenKitchen.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Models/Food.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Models/ICategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Models/IFoodRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Models/MockCategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Models/MockFoodRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/JenKitchen.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/JenKitchen.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/JenKitchen.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/JenKitchen.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenKitchen/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JenKitchen/Controllers/FoodController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JenFoodKitchen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JenFoodKitchen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JenFoodKitchen.sln" beforeDir="false" afterPath="$PROJECT_DIR$/JenFoodKitchen.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/JenKitchen.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/JenKitchen.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/Models/MockFoodRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/Models/MockFoodRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/JenKitchen.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/Debug/net5.0/JenKitchen.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/JenKitchen.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenKitchen/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JenKitchen/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.JenFoodKitchen">
+  <component name="RunManager" selected=".NET Launch Settings Profile.JenKitchen">
     <configuration name="JenFoodKitchen" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/JenFoodKitchen/JenFoodKitchen.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -136,8 +122,17 @@
       <updated>1659208359084</updated>
       <workItem from="1659208365397" duration="1939000" />
       <workItem from="1659255615626" duration="455000" />
-      <workItem from="1659277643540" duration="5570000" />
+      <workItem from="1659277643540" duration="8324000" />
+      <workItem from="1659333784089" duration="1258000" />
     </task>
+    <task id="LOCAL-00001" summary="creating model files for the mocktest">
+      <created>1659283816688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659283816688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,5 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="creating model files for the mocktest" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating model files for the mocktest" />
   </component>
 </project>

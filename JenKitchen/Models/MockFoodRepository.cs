@@ -5,12 +5,12 @@ namespace JenKitchen.Models
 {
     public class MockFoodRepository : IFoodRepository
     {
-        private readonly ICategoryRepository _categoryRepository;
+        private readonly ICategoryRepository _categoryRepository = new MockCategoryRepository();
 
-        public MockFoodRepository()
-        {
-            _categoryRepository = new MockCategoryRepository();  
-        }
+        // public MockFoodRepository(ICategoryRepository categoryRepository)
+        // {
+        //     _categoryRepository = categoryRepository;  
+        // }
 
         public IEnumerable<Food> AllFoods => new List<Food>
         {
