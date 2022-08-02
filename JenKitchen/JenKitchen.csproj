@@ -6,10 +6,15 @@
 
     <ItemGroup>
       <Folder Include="Controllers" />
+      <Folder Include="wwwroot\lib\bootstrap" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="wwwroot\lib\bootstrap\dist\.DS_Store" />
     </ItemGroup>
 
 </Project>

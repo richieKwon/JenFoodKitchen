@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using JenKitchen.Models;
+using JenKitchen.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JenKitchen.Controllers
@@ -20,7 +21,12 @@ namespace JenKitchen.Controllers
         
         public IActionResult List()
         {
-            return View(_foodRepository.AllFoods);
+            // ViewBag.CurrentCategory = "BBQ";
+            FoodsListViewModel foodsListViewModel = new FoodsListViewModel();
+            foodsListViewModel.Foods = _foodRepository.AllFoods;
+            foodsListViewModel.CurrentCategory = "BBQ";
+            
+            return View(foodsListViewModel);
         }
     }
 }
